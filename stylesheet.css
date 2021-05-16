@@ -377,11 +377,3 @@ there.
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
-
-#graph1 {
-  width: 50vh;
-}
-
-#graph2 {
-  width: 50vh;
-}
