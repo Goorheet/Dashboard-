@@ -74,6 +74,7 @@ df_NN = pd.DataFrame(Project1.y_pred_NN[1:200], columns=['Model'])
 df_NN['Real'] = Project1.y_test[1:200]
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 
 app.layout = html.Div([
     html.Div([
